@@ -1,0 +1,4 @@
+interface:
+  display_name: "ADR Convergence"
+  short_description: "Turn decisions into durable ADRs"
+  default_prompt: "Use $adr-convergence to pull the decisions and reasons out of this conversation."

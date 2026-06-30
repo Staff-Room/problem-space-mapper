@@ -1,0 +1,4 @@
+interface:
+  display_name: "Principle Convergence"
+  short_description: "Extract grounded principles from exploration"
+  default_prompt: "Use $principle-convergence to converge this exploration into grounded principles."

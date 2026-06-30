@@ -1,0 +1,15 @@
+name: problem-space-mapper
+description: Agentic workflow skills for mapping problem spaces and converging them into principles, ADRs, and PRDs.
+version: 0.1.0
+skills:
+  - skills/mr-problem
+  - skills/problem-space-divergence
+  - skills/principle-convergence
+  - skills/adr-convergence
+  - skills/prd-convergence
+templates:
+  - templates/problem-intake.md
+  - templates/problem-map.md
+  - templates/adr.md
+  - templates/prd.md
+  - templates/session-handoff.md

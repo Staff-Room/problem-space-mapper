@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRD Convergence"
+  short_description: "Convert problem evidence into PRD scope"
+  default_prompt: "Use $prd-convergence to turn this problem exploration into a product requirements draft."

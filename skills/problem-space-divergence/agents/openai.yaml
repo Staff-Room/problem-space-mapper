@@ -1,0 +1,4 @@
+interface:
+  display_name: "Problem Space Divergence"
+  short_description: "Open and collapse real problem dimensions"
+  default_prompt: "Use $problem-space-divergence to break this problem open before we jump to solutions."
