@@ -14,11 +14,17 @@ Guide the user through problem discovery before solution design. Start with the 
 1. **Intake.** Capture the seed idea, current solution bias, intended audience, known evidence, and publishing constraints.
 2. **Discovery.** Ask only enough questions to answer: what is broken, who has it, why now, how is it solved today, and what would prove it matters.
 3. **Divergence.** If the problem statement is still tidy, invoke `problem-space-divergence` or follow [workflow.md](references/workflow.md).
-4. **Convergence.** Route by target:
+4. **Adapters.** Use adjacent methods only when they strengthen a handoff:
+   - Opportunity Solution Trees -> functional and non-functional requirements matrix.
+   - IBIS dialog mapping -> stakeholder map.
+   - C4 -> architecture view for an ADR or PRD.
+   - SkillWiki -> provenance ledger.
+   - SWE-Skills-Bench -> validation example.
+5. **Convergence.** Route by target:
    - Need ideals or design laws: `principle-convergence`.
    - Need durable architectural choices: `adr-convergence`.
    - Need product scope: `prd-convergence`.
-5. **Handoff.** Emit the current map, unresolved questions, chosen next skill, and the artifact ready for persistence.
+6. **Handoff.** Emit the current map, unresolved questions, chosen next skill, validation example, and the artifact ready for persistence.
 
 ## Rules
 
@@ -26,6 +32,8 @@ Guide the user through problem discovery before solution design. Start with the 
 - Do not publish raw transcripts, private customer details, or sensitive project names unless the user explicitly asks and the target is private.
 - Treat unknowns as first-class output. Never invent evidence, citations, decisions, or user commitments.
 - Keep the PRD as the bridge artifact between the problem diamond and the solution diamond.
+- Every step must have a validation example or an explicit reason it cannot be validated yet.
+- Do not add a methodology as a new top-level skill until it repeatedly produces a durable artifact.
 
 ## Output
 
@@ -38,6 +46,7 @@ Guide the user through problem discovery before solution design. Start with the 
 **Current alternatives:** [how it is solved today]
 **Evidence:** [known proof; unknowns called out]
 **Next convergence:** [principle-convergence / adr-convergence / prd-convergence]
+**Validation example:** [what would catch a bad output at this step]
 **Handoff:** [artifact or prompt for the next skill]
 ```
 

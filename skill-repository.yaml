@@ -10,6 +10,15 @@ skills:
 templates:
   - templates/problem-intake.md
   - templates/problem-map.md
+  - templates/stakeholder-map.md
+  - templates/requirements-matrix.md
+  - templates/c4-view.md
   - templates/adr.md
   - templates/prd.md
   - templates/session-handoff.md
+  - templates/provenance-ledger.md
+  - templates/validation-example.md
+docs:
+  - docs/focus.md
+  - docs/methodology-adapters.md
+  - docs/validation-ladder.md

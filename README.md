@@ -10,6 +10,14 @@ The core agent is **Mr. Problem**. It runs the front half of a double-diamond wo
 - `adr-convergence`: turns settled design choices into Architecture Decision Records.
 - `prd-convergence`: turns problem evidence into a scoped Product Requirements Document.
 
+Mr. Problem adopts adjacent methodologies only as artifact adapters:
+
+- Opportunity Solution Trees shape the functional and non-functional requirements matrix.
+- IBIS dialog mapping shapes the stakeholder map.
+- C4 shapes architecture views attached to ADRs and PRDs.
+- SkillWiki informs provenance ledgers.
+- SWE-Skills-Bench informs validation examples for each workflow step.
+
 ## Install
 
 Copy or symlink the skills into a Codex skills directory:
@@ -34,9 +42,14 @@ skills/
   adr-convergence/
   prd-convergence/
 templates/
+docs/
 examples/
 scripts/
 ```
+
+## Focus
+
+Read [docs/focus.md](docs/focus.md) before adding new methods. The repository should grow around traceable artifacts and validation examples, not around extracurricular frameworks.
 
 ## Public Source Hygiene
 

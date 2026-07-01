@@ -22,6 +22,18 @@ Route convergence by artifact:
 - `adr-convergence`: when the session settled architecture, process, data, or product decisions against alternatives.
 - `prd-convergence`: when the next step is product scope, requirements, acceptance criteria, or delivery planning.
 
+## Adapter Layer
+
+Use adapters only when they produce one of Mr. Problem's durable artifacts:
+
+- Opportunity Solution Trees feed the requirements matrix.
+- IBIS dialog mapping feeds the stakeholder map.
+- C4 feeds architecture views attached to ADRs or PRDs.
+- SkillWiki-style provenance feeds the provenance ledger.
+- SWE-Skills-Bench-style task examples feed validation examples.
+
+Do not let adapters become extracurricular work. If an adapter does not improve a handoff, skip it.
+
 ## Discovery Prompts
 
 Use these sparingly. Ask the smallest useful set.
@@ -47,3 +59,4 @@ Every handoff should include:
 - irreducible residue
 - decisions already made
 - recommended next skill
+- validation example

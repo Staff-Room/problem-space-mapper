@@ -13,7 +13,7 @@ Use the PRD as the bridge between problem discovery and solution execution. Ever
 
 - Problem map or `problem-space-divergence` output.
 - User, buyer, stakeholder, and current alternative notes.
-- Principles, ADRs, constraints, or known non-goals.
+- Principles, ADRs, constraints, stakeholder map, C4 view, or known non-goals.
 - Evidence quality and open questions.
 
 ## Pipeline
@@ -21,10 +21,11 @@ Use the PRD as the bridge between problem discovery and solution execution. Ever
 1. Restate the product promise in one sentence.
 2. Name users, buyers, stakeholders, and jobs.
 3. Define scope boundaries: in, out, later.
-4. Convert problem evidence into requirements.
-5. Add acceptance criteria and success metrics.
-6. Call out risks, assumptions, and research gaps.
-7. Emit a PRD draft with traceability.
+4. Use the requirements matrix shape: outcome, opportunity, candidate solution, assumption, validation check.
+5. Split functional and non-functional requirements.
+6. Add acceptance criteria and success metrics.
+7. Call out risks, assumptions, research gaps, and C4 view needs.
+8. Emit a PRD draft with traceability.
 
 ## Output
 
@@ -34,12 +35,14 @@ Use the PRD as the bridge between problem discovery and solution execution. Ever
 **Product promise:** [one sentence]
 **Problem evidence:** [bullets with confidence]
 **Users and jobs:** [who; job; pain]
+**Stakeholder map:** [key positions and tensions]
 **Scope:** [in / out / later]
-**Requirements:** [R1... with source]
+**Requirements matrix:** [functional and non-functional requirements with source]
 **Acceptance criteria:** [testable conditions]
 **Metrics:** [success and guardrails]
 **Risks and assumptions:** [explicit]
 **Open questions:** [what must be learned next]
+**Validation example:** [what catches an untraced or over-scoped PRD]
 ```
 
 Read [method.md](references/method.md) when translating a large problem map into implementation-ready scope.

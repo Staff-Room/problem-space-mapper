@@ -17,7 +17,8 @@ Use this before convergence. The job is to expand the problem honestly, collapse
 4. Collapse degenerate dimensions that differ only by frequency, framing, or vocabulary.
 5. Isolate the irreducible residue.
 6. Stress-test the collapse for buried contradiction, hidden gray zone, and wrong verb.
-7. Emit the minimal pair and collapse ledger.
+7. Add a validation example that would catch a premature or cosmetic collapse.
+8. Emit the minimal pair and collapse ledger.
 
 ## Output
 
@@ -36,6 +37,9 @@ Use this before convergence. The job is to expand the problem honestly, collapse
 
 **What changed**
 [which axes fused, what the stress test exposed, what stayed irreducible]
+
+**Validation example**
+[a small prompt or fixture that would fail if the collapse hides the real axis]
 ```
 
 Read [method.md](references/method.md) when the collapse is subtle or contested.
