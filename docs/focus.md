@@ -1,8 +1,8 @@
-# Mr. Problem Focus
+# Problem Map Focus
 
 ## Core Strength
 
-Mr. Problem is strongest when a user has a fuzzy or overconfident idea and needs a disciplined path from conversation to durable artifacts.
+Problem Map, formerly Mr. Problem, is strongest when a user has a fuzzy or overconfident idea and needs a disciplined path from conversation to durable artifacts.
 
 The core capability is not "use every discovery framework." The core capability is:
 
@@ -14,7 +14,7 @@ The core capability is not "use every discovery framework." The core capability 
 
 ## Double Down
 
-Double down on the parts that make Mr. Problem different:
+Double down on the parts that make Problem Map different:
 
 - **Artifact routing.** Decide whether the next durable thing is a problem map, stakeholder map, requirements matrix, ADR, C4 view, or PRD.
 - **Traceability.** Every output should point back to evidence, a collapsed dimension, an issue, a stakeholder position, an ADR, or a validation example.
@@ -37,7 +37,7 @@ Avoid:
 
 ## Adoption Rule
 
-Adopt a methodology only when it strengthens one of Mr. Problem's core artifacts.
+Adopt a methodology only when it strengthens one of Problem Map's core artifacts.
 
 | Method | Adopt As | Do Not Adopt As |
 | --- | --- | --- |

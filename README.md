@@ -2,7 +2,7 @@
 
 An agentic workflow skill repository for guiding messy ideas through problem discovery, divergence, convergence, and durable product artifacts.
 
-The core agent is **Problem Map**. It runs the front half of a double-diamond workflow, then routes the resulting problem map into focused convergence skills:
+The core agent is **Problem Map** (formerly Mr. Problem). It runs the front half of a double-diamond workflow, then routes the resulting problem map into focused convergence skills:
 
 - `problem-map`: orchestrates the session and decides which skill runs next.
 - `problem-space-divergence`: opens a tidy-looking problem into its real dimensions, then collapses false axes.
@@ -10,7 +10,7 @@ The core agent is **Problem Map**. It runs the front half of a double-diamond wo
 - `adr-convergence`: turns settled design choices into Architecture Decision Records.
 - `prd-convergence`: turns problem evidence into a scoped Product Requirements Document.
 
-Mr. Problem adopts adjacent methodologies only as artifact adapters:
+Problem Map adopts adjacent methodologies only as artifact adapters:
 
 - Opportunity Solution Trees shape the functional and non-functional requirements matrix.
 - IBIS dialog mapping shapes the stakeholder map.
