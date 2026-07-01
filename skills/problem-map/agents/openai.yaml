@@ -1,0 +1,4 @@
+interface:
+  display_name: "Problem Map"
+  short_description: "Guide problem discovery into durable specs"
+  default_prompt: "Use $problem-map to guide this idea through problem discovery and convergence."

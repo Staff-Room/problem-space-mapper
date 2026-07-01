@@ -2,9 +2,9 @@
 
 An agentic workflow skill repository for guiding messy ideas through problem discovery, divergence, convergence, and durable product artifacts.
 
-The core agent is **Mr. Problem**. It runs the front half of a double-diamond workflow, then routes the resulting problem map into focused convergence skills:
+The core agent is **Problem Map**. It runs the front half of a double-diamond workflow, then routes the resulting problem map into focused convergence skills:
 
-- `mr-problem`: orchestrates the session and decides which skill runs next.
+- `problem-map`: orchestrates the session and decides which skill runs next.
 - `problem-space-divergence`: opens a tidy-looking problem into its real dimensions, then collapses false axes.
 - `principle-convergence`: extracts grounded principles and a minimal guiding ideal.
 - `adr-convergence`: turns settled design choices into Architecture Decision Records.
@@ -21,14 +21,14 @@ cp -R skills/* "${CODEX_HOME:-$HOME/.codex}/skills/"
 Then start with:
 
 ```text
-Use $mr-problem to map this idea before we build it.
+Use $problem-map to map this idea before we build it.
 ```
 
 ## Repository Layout
 
 ```text
 skills/
-  mr-problem/
+  problem-map/
   problem-space-divergence/
   principle-convergence/
   adr-convergence/
