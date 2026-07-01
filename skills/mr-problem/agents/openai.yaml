@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mr. Problem"
-  short_description: "Guide problem discovery into durable specs"
-  default_prompt: "Use $mr-problem to guide this idea through problem discovery and convergence."

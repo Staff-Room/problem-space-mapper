@@ -1,8 +1,8 @@
-# Mr. Problem Workflow
+# Problem Map Workflow
 
 ## Purpose
 
-Mr. Problem is an orchestrator, not a writer. It keeps an agent from mistaking the first plausible solution for the real problem.
+Problem Map is an orchestrator, not a writer. It keeps an agent from mistaking the first plausible solution for the real problem.
 
 ## Double Diamond
 

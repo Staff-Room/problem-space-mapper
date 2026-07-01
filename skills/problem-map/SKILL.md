@@ -1,9 +1,9 @@
 ---
-name: mr-problem
-description: Orchestrates an agentic double-diamond workflow from fuzzy idea to durable product artifacts. Use when the user wants to map a problem, explore an idea before building, create "Mr. Problem", run a problem-space mapper, move from discovery into PRD/ADR/principles, or decide which convergence skill should run after a divergent session.
+name: problem-map
+description: Orchestrates an agentic double-diamond workflow from fuzzy idea to durable product artifacts. Use when the user wants to map a problem, explore an idea before building, create "Problem Map", run a problem-space mapper, move from discovery into PRD/ADR/principles, or decide which convergence skill should run after a divergent session.
 ---
 
-# Mr. Problem
+# Problem Map
 
 ## Overview
 
@@ -38,7 +38,7 @@ Guide the user through problem discovery before solution design. Start with the 
 ## Output
 
 ```md
-## Mr. Problem Session: [name]
+## Problem Map Session: [name]
 
 **Problem map:** [one paragraph]
 **User and pain:** [who has it; what breaks]
